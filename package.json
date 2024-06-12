@@ -1,0 +1,30 @@
+{
+    "name": "web-scraping-backend",
+    "version": "1.0.0",
+    "description": "web-scraping",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Gagandeep Singh",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "body-parser": "^1.20.2",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "mongodb": "^6.7.0",
+        "mongoose": "^8.4.1",
+        "puppeteer": "^22.11.0",
+        "winston": "^3.13.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.3"
+    }
+}
